@@ -20,5 +20,7 @@ deploy:
   api_key:
     secure: CSAGIjbkAWXfgy3okkKTqBy84C/wacHsDZ4yG8bWy1ZsrfHgrGdOTzyqqqmiwb923OirZFX+ni5/0YXCdFwEhqMqYXdj74X2kLW4IAe418ltgeLPnF9/0RfRnIpXPehnWbaVIz0EiEgz0snzPOQbwKAbMyHluAc0QVE2EBDBVJg=
   file: ls -1t *.tar.gz | head -n 1
+  skip_cleanup: true
   on:
-    repo: ajdm/travisreleasetest
+    tags: true
+    all_branches: true
