@@ -1,0 +1,11 @@
+Package: travisreleasetest
+Type: Package
+Title: A tiny test package for testing Travis-GitHub release integration
+Version: 1.0
+Date: 2014-08-08
+Author: James Manton
+Maintainer: James Manton <ajd.manton@googlemail.com>
+Description: Basically useless.
+Suggests:
+    testthat
+License: GPL-3
